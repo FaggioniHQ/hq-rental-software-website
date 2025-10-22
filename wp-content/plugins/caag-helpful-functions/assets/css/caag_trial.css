@@ -1,0 +1,10 @@
+.caag-button-trial-forms{
+    margin-top:100px;
+}
+@media only screen and (max-width: 500px) {
+    .caag-button-trial-forms{
+        margin-top:50px;
+    }
+    .caag-captcha{
+    }
+}
