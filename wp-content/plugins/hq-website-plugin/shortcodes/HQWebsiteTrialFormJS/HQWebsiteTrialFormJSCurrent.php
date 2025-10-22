@@ -78,6 +78,13 @@ class HQWebsiteTrialFormJSCurrent
                                    placeholder="<?php echo $this->getContent("Website", "Su Sitio Web", "Website"); ?>"
                                    aria-required="true" value="">
                         </div>
+                        <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
+                          <label for="fleet_size"
+                                 class="elementor-field-label elementor-screen-only"><? echo $this->getContent("Fleet Size *", "Tamaño de Flota *", "Tamanho da Frota *"); ?></label>
+                          <input id="fleet_size" size="1" type="email" name="fleet_size" class="hq-inputs"
+                                 placeholder="<? echo $this->getContent("Fleet Size *", "Tamaño de Flota *", "Tamanho da Frota *"); ?>"
+                                 required="" aria-required="true" value="">
+                        </div>
                         <div class="elementor-field-type-select elementor-field-group elementor-column elementor-field-group-field_5 elementor-col-100 elementor-field-required">
                             <label for="form-field-field_5" class="elementor-field-label elementor-screen-only">Business
                                 Sector</label>
