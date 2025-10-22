@@ -11,3 +11,4 @@ wp-config.php
 build
 .DS_Store
 *.zip
+mysql
